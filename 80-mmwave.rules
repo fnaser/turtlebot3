@@ -1,0 +1,4 @@
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5740", SYMLINK+="board"
+SUBSYSTEM=="tty", KERNELS=="1-1.5:1.3", ATTRS{bInterfaceNumber}=="03", SYMLINK+="mmwaveData"
+SUBSYSTEM=="tty", KERNELS=="1-1.5:1.0", ATTRS{bInterfaceNumber}=="00", SYMLINK+="mmwaveCFG"
+
